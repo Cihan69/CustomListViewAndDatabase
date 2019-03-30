@@ -58,6 +58,7 @@ public class CustomAdapter extends BaseAdapter {
         tv_email.setText(model.getP_eMail());
         tv_adress.setText(model.getP_adress());
 
+
         ımageView.setImageResource(R.drawable.per);
         return linearLayout;
     }
